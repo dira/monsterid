@@ -1,0 +1,15 @@
+A Ruby port of [monsterid](http://www.splitbrain.org/go/monsterid).
+
+## Usage
+
+Save a monster in a file:
+
+    MonsterID.new('your_seed').save('monster.png')
+
+    MonsterID.new('a_seed').to_data_uri
+
+    MonsterID.new('your_seed').to_s # raw png
+
+### License
+
+License: [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
