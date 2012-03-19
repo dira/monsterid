@@ -10,6 +10,8 @@ Save a monster in a file:
 
     MonsterID.new('your_seed').to_s # raw png
 
+![lovely eyes](/dira/monsterid/raw/master/examples/lovely_eyes.png) ![](/dira/monsterid/raw/master/examples/angry.png) ![](/dira/monsterid/raw/master/examples/pointy.png) ![;)](/dira/monsterid/raw/master/examples/wink.png)
+
 ### License
 
 License: [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
