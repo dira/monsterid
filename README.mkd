@@ -1,4 +1,4 @@
-A Ruby port of [monsterid](http://www.splitbrain.org/go/monsterid).
+A Ruby port of [monsterid](http://www.splitbrain.org/projects/monsterid).
 
 ## Usage
 
