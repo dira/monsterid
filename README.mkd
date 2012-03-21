@@ -2,8 +2,6 @@ A Ruby port of [monsterid](http://www.splitbrain.org/projects/monsterid).
 
 ## Usage
 
-Save a monster in a file:
-
     MonsterID.new('your_seed').save('monster.png')
 
     MonsterID.new('a_seed').to_data_uri
