@@ -8,7 +8,7 @@ A Ruby port of [monsterid](http://www.splitbrain.org/projects/monsterid).
 
     MonsterID.new('your_seed').to_s # raw png
 
-![lovely eyes](https://dira/monsterid/raw/master/examples/lovely_eyes.png) ![](https://dira/monsterid/raw/master/examples/angry.png) ![](/dira/monsterid/raw/master/examples/pointy.png) ![;)](/dira/monsterid/raw/master/examples/wink.png)
+![lovely eyes](https://github.com/dira/monsterid/blob/master/examples/lovely_eyes.png?raw=true) ![angry](https://github.com/dira/monsterid/blob/master/examples/angry.png?raw=true) ![pointy](https://github.com/dira/monsterid/blob/master/examples/pointy.png?raw=true) ![;)](https://github.com/dira/monsterid/blob/master/examples/wink.png?raw=true)
 
 ### License
 
