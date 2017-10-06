@@ -2,11 +2,22 @@ A Ruby port of [monsterid](http://www.splitbrain.org/projects/monsterid).
 
 ## Usage
 
-    MonsterID.new('your_seed').save('monster.png')
+Shell:
 
-    MonsterID.new('a_seed').to_data_uri
+    $ gem install monster_id
+    
+Code:
 
-    MonsterID.new('your_seed').to_s # raw png
+    require 'monster_id'
+    
+    # MonsterId.generate(seed, optional_size)
+
+
+    MonsterId.generate('random_seed').save('monster.png')
+
+    uri = MonsterID.new('a_seed', 20).to_data_uri
+
+    raw_png = MonsterID.new('your_seed').to_s
 
 ![lovely eyes](https://github.com/dira/monsterid/blob/master/examples/lovely_eyes.png?raw=true) ![angry](https://github.com/dira/monsterid/blob/master/examples/angry.png?raw=true) ![pointy](https://github.com/dira/monsterid/blob/master/examples/pointy.png?raw=true) ![;)](https://github.com/dira/monsterid/blob/master/examples/wink.png?raw=true)
 
