@@ -13,11 +13,11 @@ Code:
     # MonsterId.generate(seed, optional_size)
 
 
-    MonsterId.generate('random_seed').save('monster.png')
+    MonsterId.generate('random_seed').save('monster.png') # new file!
 
-    uri = MonsterID.new('a_seed', 20).to_data_uri
+    uri = MonsterId.generate('a_seed', 20).to_data_uri
 
-    raw_png = MonsterID.new('your_seed').to_s
+    raw_png = MonsterId.generate('your_seed').to_s
 
 ![lovely eyes](https://github.com/dira/monsterid/blob/master/examples/lovely_eyes.png?raw=true) ![angry](https://github.com/dira/monsterid/blob/master/examples/angry.png?raw=true) ![pointy](https://github.com/dira/monsterid/blob/master/examples/pointy.png?raw=true) ![;)](https://github.com/dira/monsterid/blob/master/examples/wink.png?raw=true)
 
